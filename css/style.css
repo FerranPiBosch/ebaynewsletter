@@ -1,0 +1,67 @@
+:root{
+    /* colors */
+    --main-color:#ebebeb;
+    --header-color:white;
+    --font-color1:rgb(170, 84, 4);
+    --font-color2:black;
+    
+    /* marges */
+    --marge-small: 20px;
+    --marge-medium: 40px;
+
+}
+body{
+    background-color: var(--main-color);
+}
+table{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+.info-coupon{
+    background-image: url(../media/bg_portada_1200.jpg);
+    color: var(--font-color1);
+}
+.info{
+    width: 300px;
+    font-weight: bold;
+}
+h1{
+    width: 300px;
+}
+.header{
+    background-color:var(--header-color);
+}
+.logo{
+    width: 50%;
+    margin-left:var(--marge-small) ;
+}
+.header :last-child{
+    display: inline-block;
+    margin-left: var(--marge-small);
+}
+.header span{
+    margin: 10px;
+}
+.rapido{
+    width: 60%;
+    margin: var(--marge-small);
+    margin-left: 0px;
+}
+.btn-aceptar{
+    border-top: 1px solid var(--font-color1);
+    border-bottom: 1px solid var(--font-color1);
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    width: 150px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--font-color1);
+}
+.funciona{
+    background-color: var(--header-color);
+}
+.info-envio{
+    background-image: url(../media/bg_envio_1200.jpg);
+}
